@@ -22,6 +22,8 @@ pictureTradePlatforms （图片交易系统）是一个图片交易网站，提�
 idea 打开 pom.xml文件<br>
 然后在`src/main/resources`目录里面找到 `database.sql` 文件，将sql导入进数据库，如果已经创建了数据库名，请自己打开sql文件将第一行创建数据库删除，并修改下边的use XX [XX为你的数据库名字]<br>
 并在`src/main/resources`里的`application.properties`文件中设置Mysql的账号密码<br>
+在 `application.properties` 中配置一下 `file.upload.path=E:\\img\\` 将 `E:\\img\\` 改为你想要存放的硬盘和文件夹。
+并将 img.zip 压缩包解压到该文件夹中 ,将里面的 `2024-01-04 文件夹` 拿出来。 
 最后等待加载完依赖即可运行。
 
 ## 生产环境要求
