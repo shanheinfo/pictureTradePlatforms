@@ -4,6 +4,7 @@
 * <a href="#运行项目">运行项目</a>
 * <a href="#生产环境要求">生产环境要求</a>
 * <a href="#接口文档">接口文档</a>
+* <a href="#关于issue">关于issue</a>
 * <a href="#生产环境要求">本项目功能架构图</a>
 
 # pictureTradePlatforms简介
@@ -23,7 +24,7 @@ idea 打开 pom.xml文件<br>
 然后在`src/main/resources`目录里面找到 `database.sql` 文件，将sql导入进数据库，如果已经创建了数据库名，请自己打开sql文件将第一行创建数据库删除，并修改下边的use XX [XX为你的数据库名字]<br>
 并在`src/main/resources`里的`application.properties`文件中设置Mysql的账号密码<br>
 在 `application.properties` 中配置一下 `file.upload.path=E:\\img\\` 将 `E:\\img\\` 改为你想要存放的硬盘和文件夹。
-并将 img.zip 压缩包解压到该文件夹中 ,将里面的 `2024-01-04 文件夹` 拿出来。 
+（可以不做，此为默认图片）并将 img.zip 压缩包解压到该文件夹中 ,将里面的 `2024-01-04 文件夹` 拿出来。 
 最后等待加载完依赖即可运行。
 
 ## 生产环境要求
@@ -38,6 +39,8 @@ idea 打开 pom.xml文件<br>
 运行项目之后，然后打开<br>
 ~~`localhost:8080/doc.html`~~
 
+## 关于issue
+项目已经停止维护多时，本项目开发时间为23年12月-24年1月，一个多月完成的项目，还遗漏了许多BUG未修复，不过基本上是一些关于使用性的BUG。
 
 # 本项目功能架构图
 ~~![img.png](src/main/resources/assets/img.png)~~
